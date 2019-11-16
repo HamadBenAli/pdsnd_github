@@ -199,6 +199,7 @@ def user_stats(df):
 
 
 def more_row_of_data(df, num_of_rows):
+    """Displays more statistics on bikeshare users based on user wish"""
     rows_of_data = df.head(num_of_rows)
     print(rows_of_data)
 
