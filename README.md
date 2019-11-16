@@ -1,15 +1,17 @@
-### Date created
-Include the date you created this project and README file.
+### Date
+Saturday, 16 November 2019
 
-### Project Title
-Replace the Project Title
+### Project Title 
+Bikeshare Project 
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare is a python project to caluclate statistics which has intreactive 
+environment where user chooses the data file and filter for dataset to analyze
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv 
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thank to Udacity team who helped me to build a solid base in my data science journey
