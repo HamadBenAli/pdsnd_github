@@ -9,6 +9,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -155,8 +156,7 @@ def trip_duration_stats(df):
     print('Total travel time: ', total_travel_time/(24*60*60), ' Days')
 
     # TO DO: display mean travel time
-
-    mean_travel_time = df['Trip Duration'].sum() / df['Trip Duration'].count()
+    mean_travel_time = df['Trip Duration'].mean()
     minutes = mean_travel_time / 60
     print('\nMean travel time: ', minutes, ' Per Minutes')
 
